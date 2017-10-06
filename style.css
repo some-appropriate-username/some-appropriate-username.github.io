@@ -1,0 +1,67 @@
+@font-face {
+    font-family: boi;
+    src: url(fonts/font1.otf);
+}
+@font-face {
+    font-family: gal;
+    src: url(fonts/font2.ttf);
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-color: #174177;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+}
+h1 {
+    font-family: "boi", sans-serif;
+}
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: #111;
+    color: #00a1ff;
+}
+#nav li a:active {
+    background-color: pink;
+    color: black;
+}
+div {
+
+    margin: 50px;
+    padding: 75px;
+    text-align: center;
+}
+th,h2 {
+    font-family: "boi", sans-serif;
+}
+#right {
+    float: right;
+    width: 15%;
+    margin-right: 30%;
+    margin-top: -10%;
+}
+#notes li a {
+    color: white;
+}
+p, li, tr {
+    font-family: "gal", sans-serif;
+}
