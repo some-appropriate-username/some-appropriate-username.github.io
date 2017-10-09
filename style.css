@@ -8,12 +8,12 @@
 }
 
 body {
-    background-image: url(images/background.jpg);
+    background-image: url(images/background1.jpg);
     background-color: #174177;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color:white;
+    color:black;
     padding-left: 1%;
     font-size: 20px;
 }
@@ -67,12 +67,12 @@ th,h2 {
 p, li, tr {
     font-family: "gal", sans-serif;
 }
-#intro {
+#intro1 {
     text-align: center;
 }
 
 img {
-    border: 5px ridge #353535;
+    border: 5px ridge white;
     border-radius: 50%;
 }
 #introp {
