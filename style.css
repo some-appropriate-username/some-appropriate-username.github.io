@@ -14,6 +14,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white;
+    padding-left: 1%;
+    font-size: 20px;
 }
 h1 {
     font-family: "boi", sans-serif;
@@ -38,10 +40,10 @@ h1 {
 }
 #nav li a:hover {
     background-color: #111;
-    color: #00a1ff;
+    color: white;
 }
 #nav li a:active {
-    background-color: pink;
+    background-color: white;
     color: black;
 }
 div {
@@ -55,7 +57,7 @@ th,h2 {
 }
 #right {
     float: right;
-    width: 15%;
+    width: 20%;
     margin-right: 30%;
     margin-top: -10%;
 }
@@ -65,3 +67,16 @@ th,h2 {
 p, li, tr {
     font-family: "gal", sans-serif;
 }
+#intro {
+    text-align: center;
+}
+
+img {
+    border: 5px ridge #353535;
+    border-radius: 50%;
+}
+#introp {
+    display: block;
+    margin: auto;
+}
+
