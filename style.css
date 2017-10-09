@@ -79,4 +79,7 @@ img {
     display: block;
     margin: auto;
 }
-
+#credit {
+    color: black;
+    text-align: center;
+}
