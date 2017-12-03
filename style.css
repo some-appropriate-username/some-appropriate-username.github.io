@@ -54,6 +54,7 @@ div {
 }
 th,h2 {
     font-family: "boi", sans-serif;
+    text-indent: 20px;
 }
 #right {
     float: right;
@@ -82,4 +83,17 @@ img {
 #credit {
     color: black;
     text-align: center;
+}
+#game {
+    border-radius: 0%;
+    display: block;
+    margin: auto;
+}
+p {
+    text-indent: 50px;
+}
+#gamelink {
+    font-family: "boi", sans-serif;
+    text-align: center;
+    font-size: 30px ;
 }
